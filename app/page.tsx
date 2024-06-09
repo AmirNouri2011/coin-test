@@ -1,7 +1,11 @@
-import React from "react";
+import SearchInputComp from "./SearchInputComp";
 
-const page = () => {
-	return <div>Home Page</div>;
+const CurrencyPage = () => {
+	return (
+		<main className="flex justify-center items-center max-w-screen h-screen font-lexend">
+			<SearchInputComp />
+		</main>
+	);
 };
 
-export default page;
+export default CurrencyPage;

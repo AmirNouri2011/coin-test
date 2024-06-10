@@ -12,7 +12,7 @@ const SearchResultsComp = ({ coinData }: Props) => {
 			<Image
 				className="mb-2"
 				src={coinData.image.large}
-				alt="bitcoin"
+				alt={coinData.name}
 				width="64"
 				height="64"
 				priority
